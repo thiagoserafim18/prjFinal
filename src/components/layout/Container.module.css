@@ -1,0 +1,14 @@
+.container {
+width: 1200px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+flex-wrap: wrap;
+}
+.start {
+    justify-content: flex-start;
+}
+.culumn {
+flex-direction: column;
+justify-content: flex-start;
+}
