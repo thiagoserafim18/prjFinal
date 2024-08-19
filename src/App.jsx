@@ -21,7 +21,7 @@ function App() {
           <Route path='/newproject' element={<NewProject />} />
           <Route path='/projects' element={<Projects />} />
         </Routes>
-        <p>footer</p>
+        <Footer />
       </Container>
     </Router>
   );
